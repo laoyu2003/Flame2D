@@ -1,0 +1,129 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Type="DefaultWindow" Name="Master">
+    <Window Type="DefaultWindow" Name="Blocker">
+            <Property Name="UnifiedPosition" Value="{{1,-390},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,390},{0,768}}" />
+    </Window>
+    <Window Type="DefaultWindow" Name="TopFrame">
+            <Property Name="UnifiedPosition" Value="{{1,-390},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,390},{0,768}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+
+   	<Window Type="GuiLook/ImageButton" Name="Close">
+            <Property Name="UnifiedPosition" Value="{{0,29},{0,200}}" />
+            <Property Name="UnifiedSize" Value="{{0,23},{0,46}}" />
+		<Property Name="NormalImage" Value="set:GuiLook image:CloseTriangleRight" />
+		<Property Name="HoverImage" Value="set:GuiLook image:CloseTriangleRightOver" />
+		<Property Name="PushedImage" Value="set:GuiLook image:CloseTriangleRightOver" />
+		<Property Name="Tooltip" Value="Close" />
+   	 </Window>
+
+
+	<Window Type="GuiLook/RadioTab" Name="TabA">
+            <Property Name="UnifiedPosition" Value="{{0,60},{0,62}}" />
+            <Property Name="UnifiedSize" Value="{{0,99},{0,28}}" />
+		<Property Name="SelectedImage" Value="set:ui2 image:StandardTab" />
+		<Property Name="HoverImage" Value="set:ui2 image:StandardTabLit" />
+		<Property Name="UnselectedImage" Value="set:ui2 image:StandardTabInactive" />
+            <Property Name="ID" Value="0" />
+		<Property Name="Tooltip" Value="View Skills" />
+		<Property Name="onClick" Value="guiSelectA"/>
+		<Property Name="Selected" Value = "True"/>
+   	 </Window>
+
+	<Window Type="GuiLook/RadioTab" Name="TabB">
+            <Property Name="UnifiedPosition" Value="{{0,160},{0,62}}" />
+            <Property Name="UnifiedSize" Value="{{0,99},{0,28}}" />
+		<Property Name="SelectedImage" Value="set:ui2 image:StandardTab" />
+		<Property Name="HoverImage" Value="set:ui2 image:StandardTabLit" />
+		<Property Name="UnselectedImage" Value="set:ui2 image:StandardTabInactive" />
+            <Property Name="ID" Value="1" />
+		<Property Name="Tooltip" Value="View Skills" />
+		<Property Name="onClick" Value="guiSelectB"/>
+		<Property Name="Selected" Value = "True"/>
+   	 </Window>
+	<Window Type="GuiLook/RadioTab" Name="TabC">
+            <Property Name="UnifiedPosition" Value="{{0,260},{0,62}}" />
+            <Property Name="UnifiedSize" Value="{{0,99},{0,28}}" />
+		<Property Name="SelectedImage" Value="set:ui2 image:StandardTab" />
+		<Property Name="HoverImage" Value="set:ui2 image:StandardTabLit" />
+		<Property Name="UnselectedImage" Value="set:ui2 image:StandardTabInactive" />
+            <Property Name="ID" Value="2" />
+		<Property Name="Tooltip" Value="View Skills" />
+		<Property Name="onClick" Value="guiSelectC"/>
+		<Property Name="Selected" Value = "True"/>
+   	 </Window>
+	<Window Type="GuiLook/StaticText" Name="TabTextA">
+            <Property Name="UnifiedPosition" Value="{{0,62},{0,63}}" />
+            <Property Name="UnifiedSize" Value="{{0,99},{0,28}}" />
+		<Property Name="Text" Value="Active"/>
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="CentreAligned"/>
+		<Property Name="AlwaysOnTop" Value="True"/>
+        </Window>    
+        <Window Type="GuiLook/StaticText" Name="TabTextB">
+            <Property Name="UnifiedPosition" Value="{{0,162},{0,63}}" />
+            <Property Name="UnifiedSize" Value="{{0,99},{0,28}}" />
+		<Property Name="Text" Value="Passive"/>
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="CentreAligned"/>
+		<Property Name="AlwaysOnTop" Value="True"/>
+        </Window>    
+        <Window Type="GuiLook/StaticText" Name="TabTextC">
+            <Property Name="UnifiedPosition" Value="{{0,262},{0,63}}" />
+            <Property Name="UnifiedSize" Value="{{0,99},{0,28}}" />
+		<Property Name="Text" Value="Passive"/>
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="CentreAligned"/>
+		<Property Name="AlwaysOnTop" Value="True"/>
+        </Window>    
+
+
+  	<Window Type="GuiLook/StaticText" Name="Spells">
+            <Property Name="UnifiedPosition" Value="{{0,84},{0,559}}" />
+            <Property Name="UnifiedSize" Value="{{0,248},{0,18}}" />
+		<Property Name="Text" Value="Spells"/>
+		<Property Name="HorzTextFormatting" Value="CentreAligned"/>
+        </Window>    
+
+    <Window Type="DefaultWindow" Name="SkillFrameA">
+            <Property Name="UnifiedPosition" Value="{{0,95},{0,101}}" />
+            <Property Name="UnifiedSize" Value="{{0,304},{0,450}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+    <Window Type="DefaultWindow" Name="SkillFrameB">
+            <Property Name="UnifiedPosition" Value="{{0,95},{0,101}}" />
+            <Property Name="UnifiedSize" Value="{{0,304},{0,450}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+    <Window Type="DefaultWindow" Name="SkillFrameC">
+            <Property Name="UnifiedPosition" Value="{{0,95},{0,101}}" />
+            <Property Name="UnifiedSize" Value="{{0,304},{0,450}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+
+    <Window Type="DefaultWindow" Name="SpellFrame">
+            <Property Name="UnifiedPosition" Value="{{0,84},{0,585}}" />
+            <Property Name="UnifiedSize" Value="{{0,304},{0,90}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+    </Window>
+
+    <Window Type="DefaultWindow" Name="BottomFrame">
+            <Property Name="UnifiedPosition" Value="{{1,-390},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,390},{0,768}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   
+
+        <Window Type="GuiLook/StaticText" Name="Skill Points">
+            <Property Name="UnifiedPosition" Value="{{0,134},{0,682}}" />
+            <Property Name="UnifiedSize" Value="{{0,145},{0,18}}" />
+		<Property Name="Text" Value="Points Remaining:0"/>
+		<Property Name="HorzTextFormatting" Value="CentreAligned"/>
+		<Property Name="Tooltip" Value="Skill Points remaining to be spent" />
+        </Window>    
+
+    </Window>
+</Window>
+</GUILayout>

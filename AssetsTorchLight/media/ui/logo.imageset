@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="Logo" Imagefile="media/ui/logo.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+    <Image Name="logo" XPos="0" YPos="0" Width="1024" Height="244" />
+    <Image Name="topbar" XPos="0" YPos="0" Width="1024" Height="140" />
+    <Image Name="topbarleft" XPos="0" YPos="243" Width="225" Height="88" />
+    <Image Name="topbarright" XPos="799" YPos="243" Width="225" Height="88" />
+    <Image Name="bottombar" XPos="0" YPos="145" Width="1024" Height="89" />
+    <Image Name="bottombarleft" XPos="0" YPos="334" Width="225" Height="89" />
+    <Image Name="bottombarright" XPos="799" YPos="334" Width="225" Height="89" />
+    <Image Name="destroyericon" XPos="0" YPos="425" Width="128" Height="128" />
+    <Image Name="vanquishericon" XPos="128" YPos="425" Width="128" Height="128" />
+    <Image Name="alchemisticon" XPos="256" YPos="425" Width="128" Height="128" />
+    <Image Name="destroyericonlit" XPos="0" YPos="553" Width="128" Height="128" />
+    <Image Name="vanquishericonlit" XPos="128" YPos="553" Width="128" Height="128" />
+    <Image Name="alchemisticonlit" XPos="256" YPos="553" Width="128" Height="128" />
+    <Image Name="destroyericonselected" XPos="0" YPos="681" Width="128" Height="128" />
+    <Image Name="vanquishericonselected" XPos="128" YPos="681" Width="128" Height="128" />
+    <Image Name="alchemisticonselected" XPos="256" YPos="681" Width="128" Height="128" />
+</Imageset>

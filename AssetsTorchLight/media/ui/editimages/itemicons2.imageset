@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="ItemIcons2" Imagefile="itemicons2.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+    <Image Name="clothcowl" XPos="0" YPos="0" Width="64" Height="96" />
+    <Image Name="talonboots" XPos="64" YPos="0" Width="64" Height="96" />
+    <Image Name="bandedgloves" XPos="128" YPos="0" Width="64" Height="96" />
+    <Image Name="bandedboots" XPos="192" YPos="0" Width="64" Height="96" />
+    <Image Name="scalevest" XPos="256" YPos="0" Width="64" Height="96" />
+    <Image Name="scalegloves" XPos="320" YPos="0" Width="64" Height="96" />
+    <Image Name="scaleboots" XPos="384" YPos="0" Width="64" Height="96" />
+    <Image Name="scroll2" XPos="448" YPos="0" Width="64" Height="96" />
+    <Image Name="wand01" XPos="0" YPos="96" Width="64" Height="96" />
+    <Image Name="hammer01" XPos="64" YPos="96" Width="64" Height="96" />
+    <Image Name="mace01" XPos="128" YPos="96" Width="64" Height="96" />
+    <Image Name="pickaxe01" XPos="192" YPos="96" Width="64" Height="96" />
+    <Image Name="pistol01" XPos="256" YPos="96" Width="64" Height="96" />
+    <Image Name="staff01" XPos="320" YPos="96" Width="64" Height="96" />
+    <Image Name="sword02" XPos="384" YPos="96" Width="64" Height="96" />
+    <Image Name="sword03" XPos="448" YPos="96" Width="64" Height="96" />
+    <Image Name="sword07" XPos="0" YPos="192" Width="64" Height="96" />
+    <Image Name="polearm01" XPos="64" YPos="192" Width="64" Height="96" />
+    <Image Name="crossbow01" XPos="128" YPos="192" Width="64" Height="96" />
+    <Image Name="rifle01" XPos="192" YPos="192" Width="64" Height="96" />
+    <Image Name="skeletonshield" XPos="256" YPos="192" Width="64" Height="96" />
+    <Image Name="zombie_axe" XPos="320" YPos="192" Width="64" Height="96" />
+    <Image Name="dragon_helm" XPos="384" YPos="192" Width="64" Height="96" />
+    <Image Name="dragon_gloves" XPos="448" YPos="192" Width="64" Height="96" />
+    <Image Name="dragon_chest" XPos="0" YPos="288" Width="64" Height="96" />
+    <Image Name="dragon_boots" XPos="64" YPos="288" Width="64" Height="96" />
+    <Image Name="dragon_shoulders" XPos="128" YPos="288" Width="64" Height="96" />
+    <Image Name="gem_blue" XPos="192" YPos="288" Width="64" Height="96" />
+    <Image Name="gem_yellow" XPos="256" YPos="288" Width="64" Height="96" />
+    <Image Name="gem_white" XPos="320" YPos="288" Width="64" Height="96" />
+    <Image Name="gem_green" XPos="384" YPos="288" Width="64" Height="96" />
+
+</Imageset>

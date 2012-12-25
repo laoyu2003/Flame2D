@@ -1,0 +1,24 @@
+To Do:
+- Bug fixing
+- TTF Font support
+- IME Support
+- Affect/Animation Support
+- Change 2D Matrix to 3D Matrix, for better effect
+- Optimization
+- Integration example for Away3D, etc.
+
+Not Checked yet:
+- StringParser tags
+- Effect/Animation
+- MultiColumnList APIs
+- HyperText
+
+It's delicious to do some extensions to load TLBB(ÌìÁú°Ë²¿) GUI layout,
+which requires more extensions.The extensions mainly include:
+- masked image for rounded minimap
+- animated emoticons
+- IME support for CJK chars
+- Auto-Fitted tooltips
+- Mesh Window
+- SoftKeyboard
+- HyperLink support(for quest dialog)

@@ -1,0 +1,77 @@
+<mesh>
+  <submeshes>
+		<submesh material="Inventory_Top" usesharedvertices="false" use32bitindexes="false">
+		<geometry vertexcount="4">
+		<vertexbuffer positions="true" normals="true" colours_diffuse="false" texture_coords="1" texture_coords_dimensions_0="2">
+			<vertex>
+				<position x="128" y="384" z="0.500011"/>
+				<normal x="0" y="-4.37114e-008" z="1"/>
+				<texcoord u="0.25" v="0"/>
+			</vertex>
+			<vertex>
+				<position x="128" y="-128" z="0.499989"/>
+				<normal x="0" y="-4.37114e-008" z="1"/>
+				<texcoord u="0.25" v="1"/>
+			</vertex>
+			<vertex>
+				<position x="512" y="384" z="0.500011"/>
+				<normal x="0" y="-4.37114e-008" z="1"/>
+				<texcoord u="1" v="0"/>
+			</vertex>
+			<vertex>
+				<position x="512" y="-128" z="0.499989"/>
+				<normal x="0" y="-4.37114e-008" z="1"/>
+				<texcoord u="1" v="1"/>
+			</vertex>
+		</vertexbuffer>
+	</geometry>
+	<boneassignments>
+		<vertexboneassignment vertexindex="0" boneindex="2" weight="1"/>
+		<vertexboneassignment vertexindex="1" boneindex="2" weight="1"/>
+		<vertexboneassignment vertexindex="2" boneindex="2" weight="1"/>
+		<vertexboneassignment vertexindex="3" boneindex="2" weight="1"/>
+	</boneassignments>
+			<faces count="2">
+				<face v1="0" v2="1" v3="2"/>
+				<face v1="3" v2="2" v3="1"/>
+			</faces>
+		</submesh>
+		<submesh material="Inventory_Bottom" usesharedvertices="false" use32bitindexes="false">
+		<geometry vertexcount="4">
+		<vertexbuffer positions="true" normals="true" colours_diffuse="false" texture_coords="1" texture_coords_dimensions_0="2">
+			<vertex>
+				<position x="128" y="-87.3672" z="-0.999993"/>
+				<normal x="0" y="-4.37114e-008" z="1"/>
+				<texcoord u="0.25" v="0"/>
+			</vertex>
+			<vertex>
+				<position x="128" y="-407.367" z="-1.00001"/>
+				<normal x="0" y="-4.37114e-008" z="1"/>
+				<texcoord u="0.25" v="0.625"/>
+			</vertex>
+			<vertex>
+				<position x="512" y="-87.3672" z="-0.999993"/>
+				<normal x="0" y="-4.37114e-008" z="1"/>
+				<texcoord u="1" v="0"/>
+			</vertex>
+			<vertex>
+				<position x="512" y="-407.367" z="-1.00001"/>
+				<normal x="0" y="-4.37114e-008" z="1"/>
+				<texcoord u="1" v="0.625"/>
+			</vertex>
+		</vertexbuffer>
+	</geometry>
+	<boneassignments>
+		<vertexboneassignment vertexindex="0" boneindex="0" weight="1"/>
+		<vertexboneassignment vertexindex="1" boneindex="0" weight="1"/>
+		<vertexboneassignment vertexindex="2" boneindex="0" weight="1"/>
+		<vertexboneassignment vertexindex="3" boneindex="0" weight="1"/>
+	</boneassignments>
+			<faces count="2">
+				<face v1="0" v2="1" v3="2"/>
+				<face v1="3" v2="2" v3="1"/>
+			</faces>
+		</submesh>
+	</submeshes>
+	<skeletonlink name="inventory.skeleton"/>
+</mesh>

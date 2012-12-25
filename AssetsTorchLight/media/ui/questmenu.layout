@@ -1,0 +1,236 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Type="DefaultWindow" Name="Master">
+    <Window Type="DefaultWindow" Name="Blocker">
+            <Property Name="UnifiedPosition" Value="{{1,-390},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,390},{0,768}}" />
+    </Window>
+    <Window Type="DefaultWindow" Name="TopFrame">
+            <Property Name="UnifiedPosition" Value="{{1,-390},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,390},{0,768}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+
+   	<Window Type="GuiLook/ImageButton" Name="Close">
+            <Property Name="UnifiedPosition" Value="{{0,29},{0,200}}" />
+            <Property Name="UnifiedSize" Value="{{0,23},{0,46}}" />
+		<Property Name="NormalImage" Value="set:GuiLook image:CloseTriangleRight" />
+		<Property Name="HoverImage" Value="set:GuiLook image:CloseTriangleRightOver" />
+		<Property Name="PushedImage" Value="set:GuiLook image:CloseTriangleRightOver" />
+		<Property Name="Tooltip" Value="Close" />
+   	 </Window>
+
+   	<Window Type="GuiLook/ImageButton" Name="Quest1">
+            <Property Name="UnifiedPosition" Value="{{0,69},{0,95}}" />
+            <Property Name="UnifiedSize" Value="{{0,281},{0,24}}" />
+		<Property Name="NormalImage" Value="set:UIIcons image:QuestButton" />
+		<Property Name="HoverImage" Value="set:UIIcons image:QuestButtonHighlight" />
+		<Property Name="PushedImage" Value="set:UIIcons image:QuestButtonHighlight" />
+  	<Window Type="GuiLook/StaticText" Name="QuestText1">
+            <Property Name="UnifiedPosition" Value="{{0,2},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,280},{0,24}}" />
+		<Property Name="Text" Value=""/>
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+        </Window>    
+   	 </Window>
+
+   	<Window Type="GuiLook/ImageButton" Name="Quest2">
+            <Property Name="UnifiedPosition" Value="{{0,69},{0,120}}" />
+            <Property Name="UnifiedSize" Value="{{0,281},{0,24}}" />
+		<Property Name="NormalImage" Value="set:UIIcons image:QuestButton" />
+		<Property Name="HoverImage" Value="set:UIIcons image:QuestButtonHighlight" />
+		<Property Name="PushedImage" Value="set:UIIcons image:QuestButtonHighlight" />
+  	<Window Type="GuiLook/StaticText" Name="QuestText2">
+            <Property Name="UnifiedPosition" Value="{{0,2},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,280},{0,24}}" />
+		<Property Name="Text" Value=""/>
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+        </Window>    
+   	 </Window>
+
+   	<Window Type="GuiLook/ImageButton" Name="Quest3">
+            <Property Name="UnifiedPosition" Value="{{0,69},{0,145}}" />
+            <Property Name="UnifiedSize" Value="{{0,281},{0,24}}" />
+		<Property Name="NormalImage" Value="set:UIIcons image:QuestButton" />
+		<Property Name="HoverImage" Value="set:UIIcons image:QuestButtonHighlight" />
+		<Property Name="PushedImage" Value="set:UIIcons image:QuestButtonHighlight" />
+  	<Window Type="GuiLook/StaticText" Name="QuestText3">
+            <Property Name="UnifiedPosition" Value="{{0,2},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,280},{0,24}}" />
+		<Property Name="Text" Value=""/>
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+        </Window>    
+   	 </Window>
+
+   	<Window Type="GuiLook/ImageButton" Name="Quest4">
+            <Property Name="UnifiedPosition" Value="{{0,69},{0,170}}" />
+            <Property Name="UnifiedSize" Value="{{0,281},{0,24}}" />
+		<Property Name="NormalImage" Value="set:UIIcons image:QuestButton" />
+		<Property Name="HoverImage" Value="set:UIIcons image:QuestButtonHighlight" />
+		<Property Name="PushedImage" Value="set:UIIcons image:QuestButtonHighlight" />
+  	<Window Type="GuiLook/StaticText" Name="QuestText4">
+            <Property Name="UnifiedPosition" Value="{{0,2},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,280},{0,24}}" />
+		<Property Name="Text" Value=""/>
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+        </Window>    
+   	 </Window>
+
+   	<Window Type="GuiLook/ImageButton" Name="Quest5">
+            <Property Name="UnifiedPosition" Value="{{0,69},{0,195}}" />
+            <Property Name="UnifiedSize" Value="{{0,281},{0,24}}" />
+		<Property Name="NormalImage" Value="set:UIIcons image:QuestButton" />
+		<Property Name="HoverImage" Value="set:UIIcons image:QuestButtonHighlight" />
+		<Property Name="PushedImage" Value="set:UIIcons image:QuestButtonHighlight" />
+  	<Window Type="GuiLook/StaticText" Name="QuestText5">
+            <Property Name="UnifiedPosition" Value="{{0,2},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,280},{0,24}}" />
+		<Property Name="Text" Value=""/>
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+        </Window>    
+   	 </Window>
+
+   	<Window Type="GuiLook/ImageButton" Name="Quest6">
+            <Property Name="UnifiedPosition" Value="{{0,69},{0,220}}" />
+            <Property Name="UnifiedSize" Value="{{0,281},{0,24}}" />
+		<Property Name="NormalImage" Value="set:UIIcons image:QuestButton" />
+		<Property Name="HoverImage" Value="set:UIIcons image:QuestButtonHighlight" />
+		<Property Name="PushedImage" Value="set:UIIcons image:QuestButtonHighlight" />
+  	<Window Type="GuiLook/StaticText" Name="QuestText6">
+            <Property Name="UnifiedPosition" Value="{{0,2},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,280},{0,24}}" />
+		<Property Name="Text" Value=""/>
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+        </Window>    
+   	 </Window>
+
+  	<Window Type="GuiLook/StaticText" Name="Title">
+            <Property Name="UnifiedPosition" Value="{{0,84},{0,64}}" />
+            <Property Name="UnifiedSize" Value="{{0,248},{0,18}}" />
+		<Property Name="Text" Value="Quests"/>
+		<Property Name="HorzTextFormatting" Value="CentreAligned"/>
+        </Window>    
+  	<Window Type="GuiLook/StaticText" Name="Description">
+            <Property Name="UnifiedPosition" Value="{{0,84},{0,265}}" />
+            <Property Name="UnifiedSize" Value="{{0,248},{0,18}}" />
+		<Property Name="Text" Value="Description"/>
+		<Property Name="HorzTextFormatting" Value="CentreAligned"/>
+        </Window>    
+  	<Window Type="GuiLook/StaticText" Name="Rewards">
+            <Property Name="UnifiedPosition" Value="{{0,84},{0,534}}" />
+            <Property Name="UnifiedSize" Value="{{0,248},{0,18}}" />
+		<Property Name="Text" Value="Rewards"/>
+		<Property Name="HorzTextFormatting" Value="CentreAligned"/>
+        </Window>    
+
+    <Window Type="GuiLook/StaticText" Name="DescriptionFrame">
+            <Property Name="UnifiedPosition" Value="{{0,68},{0,300}}" />
+            <Property Name="UnifiedSize" Value="{{0,280},{0,230}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="WordWrapLeftAligned"/>
+		<Property Name="VertFormatting" Value="TopAligned"/>
+   	 </Window>
+
+    <Window Type="GuiLook/StaticText" Name="RewardFrame">
+            <Property Name="UnifiedPosition" Value="{{0,68},{0,558}}" />
+            <Property Name="UnifiedSize" Value="{{0,304},{0,70}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+		<Property Name="VertFormatting" Value="TopAligned"/>
+
+	    <Window Type="GuiLook/StaticText" Name="XP">
+            <Property Name="UnifiedPosition" Value="{{0,25},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,30},{0,24}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+		<Property Name="VertFormatting" Value="TopAligned"/>
+		<Property Name="Text" Value="XP:"/>
+   		 </Window>
+	    <Window Type="GuiLook/StaticText" Name="XPReward">
+            <Property Name="UnifiedPosition" Value="{{0,50},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,100},{0,24}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+		<Property Name="VertFormatting" Value="TopAligned"/>
+		<Property Name="Text" Value="0"/>
+   		 </Window>
+
+	    <Window Type="GuiLook/StaticText" Name="Gold">
+            <Property Name="UnifiedPosition" Value="{{0,25},{0,25}}" />
+            <Property Name="UnifiedSize" Value="{{0,30},{0,24}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+		<Property Name="VertFormatting" Value="TopAligned"/>
+		<Property Name="Text" Value="GP:"/>
+   		 </Window>
+	    <Window Type="GuiLook/StaticText" Name="GoldReward">
+            <Property Name="UnifiedPosition" Value="{{0,50},{0,25}}" />
+            <Property Name="UnifiedSize" Value="{{0,100},{0,24}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+		<Property Name="VertFormatting" Value="TopAligned"/>
+		<Property Name="Text" Value="0"/>
+   		 </Window>
+
+	    <Window Type="GuiLook/StaticText" Name="Fame">
+            <Property Name="UnifiedPosition" Value="{{0,25},{0,50}}" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,24}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+		<Property Name="VertFormatting" Value="TopAligned"/>
+		<Property Name="Text" Value="Fame:"/>
+   		 </Window>
+	    <Window Type="GuiLook/StaticText" Name="FameReward">
+            <Property Name="UnifiedPosition" Value="{{0,70},{0,50}}" />
+            <Property Name="UnifiedSize" Value="{{0,100},{0,24}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="LeftAligned"/>
+		<Property Name="VertFormatting" Value="TopAligned"/>
+		<Property Name="Text" Value="0"/>
+   		 </Window>
+
+ 	   <Window Type="GuiLook/StaticImage" Name="ItemRewardBkg3" >
+       	 <Property Name="UnifiedSize" Value="{{0,48},{0,70}}" />
+	        <Property Name="UnifiedPosition" Value="{{0,120},{0,0}}" />
+		<Property Name="Image" Value="set:ui2 image:ItemSlot" />
+		    <Window Type="GuiLook/StaticImage" Name="ItemRewardSlot3" >
+      	 	 <Property Name="UnifiedSize" Value="{{0,40},{0,65}}" />
+	      	  <Property Name="UnifiedPosition" Value="{{0,3},{0,3}}" />
+		    </Window>
+	    </Window>
+ 	   <Window Type="GuiLook/StaticImage" Name="ItemRewardBkg2" >
+       	 <Property Name="UnifiedSize" Value="{{0,48},{0,70}}" />
+	        <Property Name="UnifiedPosition" Value="{{0,170},{0,0}}" />
+		<Property Name="Image" Value="set:ui2 image:ItemSlot" />
+		    <Window Type="GuiLook/StaticImage" Name="ItemRewardSlot2" >
+      	 	 <Property Name="UnifiedSize" Value="{{0,40},{0,65}}" />
+	      	  <Property Name="UnifiedPosition" Value="{{0,3},{0,3}}" />
+		    </Window>
+	    </Window>
+ 	   <Window Type="GuiLook/StaticImage" Name="ItemRewardBkg1" >
+       	 <Property Name="UnifiedSize" Value="{{0,48},{0,70}}" />
+	        <Property Name="UnifiedPosition" Value="{{0,220},{0,0}}" />
+		<Property Name="Image" Value="set:ui2 image:ItemSlot" />
+		    <Window Type="GuiLook/StaticImage" Name="ItemRewardSlot1" >
+      	 	 <Property Name="UnifiedSize" Value="{{0,40},{0,65}}" />
+	      	  <Property Name="UnifiedPosition" Value="{{0,3},{0,3}}" />
+		    </Window>
+	    </Window>
+
+    </Window>
+    <Window Type="GuiLook/StandardButton" Name="Abandon">
+            <Property Name="UnifiedPosition" Value="{{0,132},{0,633}}" />
+            <Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+            <Property Name="Text" Value="Abandon"/>
+		<Property Name="onClick" Value="guiDecline"/>
+    </Window>
+    </Window>
+    <Window Type="DefaultWindow" Name="BottomFrame">
+            <Property Name="UnifiedPosition" Value="{{1,-390},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,390},{0,768}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+
+
+    </Window>
+  
+</Window>
+</GUILayout>

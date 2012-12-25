@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="ItemIcons" Imagefile="itemicons.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+    <Image Name="hacker" XPos="0" YPos="0" Width="64" Height="96" />
+    <Image Name="woodenshoulders" XPos="64" YPos="0" Width="64" Height="96" />
+    <Image Name="talonshield" XPos="128" YPos="0" Width="64" Height="96" />
+    <Image Name="minormask" XPos="192" YPos="0" Width="64" Height="96" />
+    <Image Name="chopper" XPos="256" YPos="0" Width="64" Height="96" />
+    <Image Name="leatherboots" XPos="320" YPos="0" Width="64" Height="96" />
+    <Image Name="leathergloves" XPos="384" YPos="0" Width="64" Height="96" />
+    <Image Name="amulet1" XPos="448" YPos="0" Width="64" Height="96" />
+    <Image Name="ringjeweled" XPos="0" YPos="96" Width="64" Height="96" />
+    <Image Name="leatherarmor" XPos="64" YPos="96" Width="64" Height="96" />
+    <Image Name="healthpotion" XPos="128" YPos="96" Width="64" Height="96" />
+    <Image Name="manapotion" XPos="192" YPos="96" Width="64" Height="96" />
+    <Image Name="spikebow" XPos="256" YPos="96" Width="64" Height="96" />
+    <Image Name="ringcrude" XPos="320" YPos="96" Width="64" Height="96" />
+    <Image Name="ringsilver" XPos="384" YPos="96" Width="64" Height="96" />
+    <Image Name="ringgold" XPos="448" YPos="96" Width="64" Height="96" />
+    <Image Name="amulet2" XPos="0" YPos="192" Width="64" Height="96" />
+    <Image Name="scroll1" XPos="64" YPos="192" Width="64" Height="96" />
+    <Image Name="sword04" XPos="128" YPos="192" Width="64" Height="96" />
+    <Image Name="sword05" XPos="192" YPos="192" Width="64" Height="96" />
+    <Image Name="sword06" XPos="256" YPos="192" Width="64" Height="96" />
+    <Image Name="axe01" XPos="320" YPos="192" Width="64" Height="96" />
+    <Image Name="amulet3" XPos="384" YPos="192" Width="64" Height="96" />
+    <Image Name="amulet4" XPos="448" YPos="192" Width="64" Height="96" />
+    <Image Name="belt1" XPos="0" YPos="288" Width="64" Height="96" />
+    <Image Name="belt2" XPos="64" YPos="288" Width="64" Height="96" />
+    <Image Name="belt3" XPos="128" YPos="288" Width="64" Height="96" />
+    <Image Name="belt4" XPos="192" YPos="288" Width="64" Height="96" />
+    <Image Name="belt5" XPos="256" YPos="288" Width="64" Height="96" />
+    <Image Name="belt6" XPos="320" YPos="288" Width="64" Height="96" />
+    <Image Name="leathershoulders" XPos="384" YPos="288" Width="64" Height="96" />
+    <Image Name="heavyleathershoulders" XPos="448" YPos="288" Width="64" Height="96" />
+    <Image Name="ravenshoulders" XPos="0" YPos="384" Width="64" Height="96" />
+    <Image Name="leathercap" XPos="64" YPos="384" Width="64" Height="96" />
+    <Image Name="heavyleatherhelm" XPos="128" YPos="384" Width="64" Height="96" />
+    <Image Name="heavyleathervest" XPos="192" YPos="384" Width="64" Height="96" />
+    <Image Name="heavyleathergloves" XPos="256" YPos="384" Width="64" Height="96" />
+    <Image Name="heavyleatherboots" XPos="320" YPos="384" Width="64" Height="96" />
+    <Image Name="talonvest" XPos="384" YPos="384" Width="64" Height="96" />
+    <Image Name="talongloves" XPos="448" YPos="384" Width="64" Height="96" />
+
+</Imageset>

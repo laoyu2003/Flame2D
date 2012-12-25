@@ -1,0 +1,68 @@
+
+material Character_Top/Character_Top
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.992157 0.992157 0.992157
+			diffuse 0.992157 0.992157 0.992157
+			specular 0 0 0 0
+			emissive 1 1 1
+			lighting off
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture character_top.png
+				filtering linear linear none
+			}
+		}
+	}
+}
+
+material Character_Bottom
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.992157 0.992157 0.992157
+			diffuse 0.992157 0.992157 0.992157
+			specular 0 0 0 0
+			emissive 1 1 1
+			lighting off
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture character_bottom.png
+				filtering linear linear none
+			}
+		}
+	}
+}
+
+material Character_Top/Character_Top2
+{
+	technique
+	{
+		pass
+		{
+
+			ambient 1 1 1
+			diffuse 1 1 1
+			specular 0 0 0 0
+			emissive 1 1 1
+			lighting off
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture character_bottom.png
+				filtering linear linear none
+			}
+		}
+	}
+
+}

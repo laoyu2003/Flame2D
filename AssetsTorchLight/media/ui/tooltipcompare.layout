@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="GuiLook/ItemTooltip2" Name="Base" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.23466,0},{0,83},{0.529024,0},{0,494}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+        <Window Type="GuiLook/StaticText" Name="ItemName" >
+            <Property Name="Font" Value="FrizQuadrata" />
+            <Property Name="Text" Value="Arundel&apos;s Dreadaxe" />
+            <Property Name="TextColour" Value="FF64bcff" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,26},{1,0},{0,53}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="ItemType" >
+            <Property Name="Font" Value="SerifSmall" />
+            <Property Name="Text" Value="Enchanted Axe" />
+            <Property Name="TextColour" Value="FF64bcff" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,10},{1,0},{0,32}}" />
+            <Property Name="HorzTextFormatting" Value="RightAligned" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="Stats" >
+            <Property Name="Font" Value="SerifSmall" />
+            <Property Name="Text" Value="22-34 damage" />
+            <Property Name="TextColour" Value="FFd6d6d7" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="TopAligned" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0,76},{0.946895,0},{0,98}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="BigDPS" >
+            <Property Name="Font" Value="FrizQuadrata" />
+            <Property Name="Text" Value="65" />
+            <Property Name="TextColour" Value="FFdadada" />
+
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="BottomAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,50},{0,80},{0,73}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="GuiLook/StaticText" Name="DPS" >
+            <Property Name="TextColour" Value="FFdadada" />
+	          <Property Name="Font" Value="SerifSmall" />
+                <Property Name="Text" Value="damage per second" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{0,40},{0,0},{0,250},{0,27}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="Level Requirements" >
+            <Property Name="Font" Value="SerifSmall" />
+            <Property Name="Text" Value="requires level 21" />
+            <Property Name="TextColour" Value="FFFF0000" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0.05,172},{0.973136,0},{0.05,188}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="Strength Requirements" >
+            <Property Name="Font" Value="SerifSmall" />
+            <Property Name="Text" Value="requires level 21" />
+            <Property Name="TextColour" Value="FFFF0000" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0.05,172},{0.973136,0},{0.05,188}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="Dexterity Requirements" >
+            <Property Name="Font" Value="SerifSmall" />
+            <Property Name="Text" Value="requires level 21" />
+            <Property Name="TextColour" Value="FFFF0000" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0.05,172},{0.973136,0},{0.05,188}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="Magic Requirements" >
+            <Property Name="Font" Value="SerifSmall" />
+            <Property Name="Text" Value="requires level 21" />
+            <Property Name="TextColour" Value="FFFF0000" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0.05,172},{0.973136,0},{0.05,188}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="Defense Requirements" >
+            <Property Name="Font" Value="SerifSmall" />
+            <Property Name="Text" Value="requires level 21" />
+            <Property Name="TextColour" Value="FFFF0000" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0.05,172},{0.973136,0},{0.05,188}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="Effects" >
+            <Property Name="Font" Value="SerifSmall" />
+            <Property Name="Text" Value="+5 Speed Boost" />
+            <Property Name="TextColour" Value="FF64bcff" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,20},{0.1,113},{1,-20},{0.1,129}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+            <Window Type="GuiLook/StaticImage" Name="Divider" >
+                <Property Name="Image" Value="set:GuiLook image:WhiteLine" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.026177,-6},{0,-7.25},{0.973823,6},{0,-6}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+            <Window Type="GuiLook/StaticImage" Name="Divider1" >
+                <Property Name="Image" Value="set:GuiLook image:WhiteLine" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="ClippedByParent" Value="False" />
+                <Property Name="UnifiedAreaRect" Value="{{-0.026177,-6},{1,-7.25},{0.973823,6},{1,-6}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+            </Window>
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="Description" >
+            <Property Name="Font" Value="SerifSmall" />
+		<Property Name="HorzTextFormatting" Value="WordWrapLeftAligned"/>
+            <Property Name="Text" Value="" />
+            <Property Name="TextColour" Value="FFd6d6d7" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,130},{1.24173,0},{0,143}}" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="Price" >
+            <Property Name="Font" Value="SerifSmall" />
+            <Property Name="Text" Value="Price" />
+            <Property Name="TextColour" Value="FFffeb9a" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="VertFormatting" Value="BottomAligned" />
+            <Property Name="ClippedByParent" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{1,-20},{1,0},{1,0}}" />
+            <Property Name="HorzTextFormatting" Value="RightAligned" />
+            <Property Name="HorizontalAlignment" Value="Right" />
+	<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>
+    </Window>
+</GUILayout>
+

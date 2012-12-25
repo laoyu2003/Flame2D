@@ -1,0 +1,8 @@
+Know Bugs:
+- Font alignment has slight offsets...use temporary manual offsets
+- FrameWindow: Close Button disappeared when click titlebar, to be checked
+- FrameWindow(or any others) Texture cache has bugs
+- Window resizing cause incorrect elements display
+- Combobox: Cannot drag scrollbar when dropped
+- Tree display and selection bugs
+- Sound has delay, the better switching to a new sound library

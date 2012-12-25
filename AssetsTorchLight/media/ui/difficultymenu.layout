@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Type="GuiLook/StaticImage" Name="Frame">
+            <Property Name="UnifiedPosition" Value="{{0,0},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{1,0},{1,0}}" />
+
+    <Window Type="GuiLook/StandardButton" Name="Back">
+            <Property Name="UnifiedPosition" Value="{{0,83},{0,280}}" />
+            <Property Name="UnifiedSize" Value="{{0,246},{0,44}}" />
+            <Property Name="Text" Value="Back"/>
+		<Property Name="onClick" Value="guiBack"/>
+    </Window>
+
+    </Window>
+</GUILayout>

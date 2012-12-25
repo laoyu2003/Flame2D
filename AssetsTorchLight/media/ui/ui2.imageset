@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="ui2" Imagefile="media/ui/ui2.png" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+    <Image Name="SkillBarRight" XPos="0" YPos="3" Width="206" Height="56" />
+    <Image Name="SkillBarLeft" XPos="0" YPos="59" Width="206" Height="56" />
+ 
+   <Image Name="WeaponSwitch" XPos="211" YPos="1" Width="76" Height="76" />
+   <Image Name="WeaponSwitchHighlight" XPos="289" YPos="1" Width="76" Height="76" />
+   <Image Name="WeaponSwitchChecked" XPos="367" YPos="1" Width="76" Height="76" />
+
+   <Image Name="StandardTabLit" XPos="2" YPos="119" Width="99" Height="28" />
+   <Image Name="StandardTab" XPos="104" YPos="119" Width="99" Height="28" />
+   <Image Name="StandardTabInactive" XPos="206 " YPos="119" Width="99" Height="28" />
+   <Image Name="StandardTabInactiveLit" XPos="308" YPos="119" Width="99" Height="28" />
+
+   <Image Name="PointHousing" XPos="213" YPos="86" Width="56" Height="28" />
+   <Image Name="PointMinus" XPos="272" YPos="86" Width="28" Height="28" />
+   <Image Name="PointPlus" XPos="300" YPos="86" Width="28" Height="28" />
+    <Image Name="PointMinusLit" XPos="327" YPos="86" Width="28" Height="28" />
+   <Image Name="PointPlusLit" XPos="355" YPos="86" Width="28" Height="28" />
+
+   <Image Name="PassiveSkillHousing" XPos="2" YPos="148" Width="65" Height="63" />
+   <Image Name="ActiveSkillHousing" XPos="66" YPos="148" Width="65" Height="63" />
+
+   <Image Name="SkillPointPlus" XPos="129" YPos="152" Width="28" Height="23" />
+   <Image Name="SkillPointPlusLit" XPos="159" YPos="152" Width="28" Height="23" />
+
+   <Image Name="ItemSlot" XPos="463" YPos="1" Width="48" Height="70" />
+
+   <Image Name="ButtonRedLit" XPos="7" YPos="218" Width="134" Height="40" />
+   <Image Name="ButtonRed" XPos="7" YPos="262" Width="134" Height="40" />
+
+   <Image Name="BarXP" XPos="10" YPos="305" Width="187" Height="17" />
+   <Image Name="BarFame" XPos="10" YPos="324" Width="187" Height="17" />
+   <Image Name="PlayerHealthManaRight" XPos="1" YPos="384" Width="379" Height="120" />
+
+    <Image Name="PetHealthMana" XPos="189" YPos="150" Width="115" Height="154" />
+    <Image Name="PetManaBar" XPos="311"  YPos="260" Width="72" Height="7" />
+    <Image Name="PetHealthBar" XPos="311" YPos ="250" Width="72" Height="7" />
+    <Image Name="ButtonPetFeed" XPos="0" YPos="0" Width="0" Height="0" />
+    <Image Name="ButtonPetFeedHighlight" XPos="311" YPos="206" Width="43" Height="42" />
+
+</Imageset>

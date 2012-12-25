@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="GuiLook/ItemTooltip" Name="Base" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0.23466,0},{0,83},{0.529024,0},{0,494}}" />
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon11" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey11" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon21" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey21" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon31" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey31" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon41" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey41" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon51" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey51" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon61" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey61" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon71" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey71" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon81" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey81" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon91" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey91" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon101" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey101" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon12" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey12" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon22" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey22" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon32" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey32" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon42" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey42" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon52" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey52" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon62" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey62" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon72" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey72" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon82" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey82" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon92" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey92" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon102" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey102" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon13" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey13" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon23" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey23" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon33" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey33" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon43" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey43" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon53" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey53" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon63" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey63" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon73" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey73" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon83" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey83" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon93" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey93" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon103" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey103" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon14" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey14" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon24" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey24" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon34" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey34" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon44" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey44" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon54" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey54" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon64" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey64" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon74" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey74" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon84" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey84" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon94" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey94" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon104" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey104" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon15" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey15" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon25" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey25" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon35" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey35" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon45" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey45" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon55" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey55" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon65" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey65" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon75" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey75" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon85" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey85" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon95" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey95" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon105" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey105" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon16" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey16" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon26" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey26" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon36" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey36" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon46" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey46" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon56" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey56" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon66" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey66" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon76" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey76" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon86" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey86" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon96" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey96" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon106" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey106" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon17" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey17" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon27" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey27" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon37" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey37" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon47" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey47" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon57" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey57" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon67" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey67" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon77" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey77" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon87" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey87" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon97" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey97" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon107" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey107" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+
+
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon18" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey18" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon28" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey28" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon38" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey38" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon48" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey48" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon58" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey58" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon68" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey68" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon78" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey78" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon88" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey88" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon98" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey98" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon108" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey108" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon19" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey19" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon29" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey29" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon39" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey39" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon49" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey49" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon59" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey59" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon69" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey69" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon79" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey79" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon89" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey89" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon99" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey99" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon109" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey109" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+
+
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon110" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey110" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon210" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey210" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon310" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey310" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon410" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey410" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon510" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey510" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon610" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey610" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon710" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey710" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon810" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey810" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon910" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey910" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+  	  <Window Type="GuiLook/StaticImage" Name="SkillIcon1010" >
+      	      <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+            	<Property Name="UnifiedSize" Value="{{0,48},{0,48}}" />
+	    </Window>
+		<Window Type="GuiLook/StaticText" Name="SkillHotkey1010" >
+	    		  <Property Name="Text" Value=""/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{0,5}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,36},{0,14}}" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		  </Window>
+
+    </Window>
+</GUILayout>
+

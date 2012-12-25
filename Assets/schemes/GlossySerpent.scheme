@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<!--
+Glossy Serpent is a free theme for CEGUI, based on the Taharez Look theme.
+Glossy Serpent is licensed under the terms of the MIT license.
+
+Copyright (c) 2012 Augustin Preda
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, 
+and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions 
+of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
+THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<!--
+version:      0.5
+Last change:	$LastChangedDate: 2012-04-07 12:37:44 +0300 (S, 07 apr. 2012) $
+-->
+<GUIScheme Name="GlossySerpent">
+  <Imageset Name="GlossySerpent" Filename="GlossySerpent.imageset" />
+  <Imageset Name="GlossySerpentCursors" Filename="GlossySerpentCursors.imageset" />
+  
+  <!-- redefine both DejaVuSans*, DejaVuSerif* to DejaVuSans-HD*, DejaVuSerif-HD* -->
+	<Font Name="DejaVuSans-HD-10" Filename="DejaVuSans-HD-10.font" />
+	<Font Name="DejaVuSerif-HD-8" Filename="DejaVuSerif-HD-8.font" />
+	<Font Name="DejaVuSerif-HD-10" Filename="DejaVuSerif-HD-10.font" />
+	<Font Name="DejaVuSerif-HD-12" Filename="DejaVuSerif-HD-12.font" />
+	<Font Name="DejaVuSerif-HD-16" Filename="DejaVuSerif-HD-16.font" />
+  
+	<LookNFeel Filename="GlossySerpent.looknfeel" />
+	<WindowRendererSet Filename="CEGUIFalagardWRBase" />
+	<FalagardMapping WindowType="GlossySerpent/Button32"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GlossySerpent/Button32" />
+	<FalagardMapping WindowType="GlossySerpent/Button32_4C"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GlossySerpent/Button32_4C" />
+	<FalagardMapping WindowType="GlossySerpent/Button"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GlossySerpent/Button32" />
+	<FalagardMapping WindowType="GlossySerpent/Checkbox"    TargetType="CEGUI/Checkbox"    Renderer="Falagard/ToggleButton" LookNFeel="GlossySerpent/Checkbox" />
+	<FalagardMapping WindowType="GlossySerpent/ImageButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GlossySerpent/ImageButton" />
+	<FalagardMapping WindowType="GlossySerpent/RadioButton" TargetType="CEGUI/RadioButton" Renderer="Falagard/ToggleButton" LookNFeel="GlossySerpent/RadioButton" />
+	<FalagardMapping WindowType="GlossySerpent/FrameWindow"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="GlossySerpent/FrameWindow" />
+	<FalagardMapping WindowType="GlossySerpent/Titlebar"     TargetType="CEGUI/Titlebar"    Renderer="Falagard/Titlebar"     LookNFeel="GlossySerpent/Titlebar" />
+	<FalagardMapping WindowType="GlossySerpent/SystemButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/Button" LookNFeel="GlossySerpent/GlyphButton" />
+	<FalagardMapping WindowType="GlossySerpent/SystemButton32" TargetType="CEGUI/PushButton"  Renderer="Falagard/Button" LookNFeel="GlossySerpent/SystemButton32" />
+	<FalagardMapping WindowType="GlossySerpent/Editbox"          TargetType="CEGUI/Editbox"          Renderer="Falagard/Editbox"          LookNFeel="GlossySerpent/Editbox" />
+	<FalagardMapping WindowType="GlossySerpent/MultiLineEditbox" TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox" LookNFeel="GlossySerpent/MultiLineEditbox" />
+	<FalagardMapping WindowType="GlossySerpent/SimplePanel"      TargetType="DefaultWindow"  Renderer="Falagard/Button"       LookNFeel="GlossySerpent/SimplePanel" />
+	<FalagardMapping WindowType="GlossySerpent/SimpleTransparentPanel"      TargetType="DefaultWindow"  Renderer="Falagard/Button"       LookNFeel="GlossySerpent/SimpleTransparentPanel" />
+	<FalagardMapping WindowType="GlossySerpent/ProgressBar"          TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="GlossySerpent/ProgressBar" />
+	<FalagardMapping WindowType="GlossySerpent/VerticalScrollbar"   TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="GlossySerpent/VerticalScrollbar" />
+	<FalagardMapping WindowType="GlossySerpent/HorizontalScrollbar" TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="GlossySerpent/HorizontalScrollbar" />
+	<FalagardMapping WindowType="GlossySerpent/VerticalScrollbarThumb"   TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="GlossySerpent/VerticalScrollbarThumb" />
+	<FalagardMapping WindowType="GlossySerpent/HorizontalScrollbarThumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="GlossySerpent/HorizontalScrollbarThumb" />
+	<FalagardMapping WindowType="GlossySerpent/TabButton"  TargetType="CEGUI/TabButton"  Renderer="Falagard/TabButton"  LookNFeel="GlossySerpent/TabButton" />
+	<FalagardMapping WindowType="GlossySerpent/TabControl" TargetType="CEGUI/TabControl" Renderer="Falagard/TabControl" LookNFeel="GlossySerpent/TabControl" />
+	<FalagardMapping WindowType="GlossySerpent/TabContentPane"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="GlossySerpent/TabContentPane" />
+	<FalagardMapping WindowType="GlossySerpent/TabButtonPane"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="GlossySerpent/TabButtonPane" />
+	<FalagardMapping WindowType="GlossySerpent/GlyphButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GlossySerpent/GlyphButton" />
+	<FalagardMapping WindowType="GlossySerpent/ComboDropList" TargetType="CEGUI/ComboDropList" Renderer="Falagard/Listbox" LookNFeel="GlossySerpent/ComboDropList" />
+	<FalagardMapping WindowType="GlossySerpent/ComboEditbox"  TargetType="CEGUI/Editbox"	 Renderer="Falagard/Editbox" LookNFeel="GlossySerpent/ComboEditbox" />
+	<FalagardMapping WindowType="GlossySerpent/Combobox"	TargetType="CEGUI/Combobox"	 Renderer="Falagard/Default" LookNFeel="GlossySerpent/Combobox" />
+	<FalagardMapping WindowType="GlossySerpent/Listbox"           TargetType="CEGUI/Listbox"           Renderer="Falagard/Listbox"           LookNFeel="GlossySerpent/Listbox" />
+  <FalagardMapping WindowType="GlossySerpent/ListboxTransparent"           TargetType="CEGUI/Listbox"           Renderer="Falagard/Listbox"           LookNFeel="GlossySerpent/ListboxTransparent" />
+	<FalagardMapping WindowType="GlossySerpent/ListHeader"        TargetType="CEGUI/ListHeader"        Renderer="Falagard/ListHeader"        LookNFeel="GlossySerpent/ListHeader" />
+	<FalagardMapping WindowType="GlossySerpent/ListHeaderSegment" TargetType="CEGUI/ListHeaderSegment" Renderer="Falagard/ListHeaderSegment" LookNFeel="GlossySerpent/ListHeaderSegment" />
+	<FalagardMapping WindowType="GlossySerpent/MultiColumnList"   TargetType="CEGUI/MultiColumnList"   Renderer="Falagard/MultiColumnList"   LookNFeel="GlossySerpent/MultiColumnList" />
+	<FalagardMapping WindowType="GlossySerpent/Spinner" TargetType="CEGUI/Spinner" Renderer="Falagard/Default" LookNFeel="GlossySerpent/Spinner" />
+	<FalagardMapping WindowType="GlossySerpent/Tooltip" TargetType="CEGUI/Tooltip" Renderer="Falagard/Tooltip" LookNFeel="GlossySerpent/Tooltip" />
+	<FalagardMapping WindowType="GlossySerpent/StaticImage" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="GlossySerpent/StaticImage" />
+	<FalagardMapping WindowType="GlossySerpent/StaticText"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="GlossySerpent/StaticText" />
+	<FalagardMapping WindowType="GlossySerpent/ItemListbox" TargetType="CEGUI/ItemListbox" Renderer="Falagard/ItemListbox" LookNFeel="GlossySerpent/ItemListbox" />
+	<FalagardMapping WindowType="GlossySerpent/ListboxItem" TargetType="CEGUI/ItemEntry"   Renderer="Falagard/ItemEntry"   LookNFeel="GlossySerpent/ListboxItem" />
+  <FalagardMapping WindowType="GlossySerpent/GroupBox" TargetType="CEGUI/GroupBox"   Renderer="Falagard/Default"   LookNFeel="GlossySerpent/GroupBox" />
+</GUIScheme>

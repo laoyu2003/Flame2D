@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<GUIScheme Name="GuiLook">
+	<Imageset Name="GuiLook" Filename="media/ui/hud.imageset" />
+	<Imageset Name="UIIcons" Filename="media/ui/uiicons.imageset" />
+	<Imageset Name="ui2" Filename="media/ui/ui2.imageset" />
+	<Imageset Name="Loading" Filename="media/ui/loading.imageset" />
+	<Imageset Name="Logo" Filename="media/ui/logo.imageset" />
+	<Imageset Name="StatsMenu_UI" Filename="media/ui/statsmenu_ui.imageset" />
+	<Font Name="Serif" Filename="media/ui/Serif.font" />
+	<Font Name="SerifBig" Filename="media/ui/SerifBig.font" />
+	<Font Name="SerifHuge" Filename="media/ui/SerifHuge.font" />
+	<Font Name="SerifSmall" Filename="media/ui/SerifSmall.font" />
+	<Font Name="FrizQuadrata" Filename="media/ui/FrizQuadrata.font" />
+	<Font Name="FrizQuadrataSmall" Filename="media/ui/FrizQuadrataSmall.font" />
+	<Font Name="FrizQuadrataBig" Filename="media/ui/FrizQuadrataBig.font" />
+	<LookNFeel Filename="media/ui/GuiLook.looknfeel" />
+	<WindowRendererSet Filename="CEGUIFalagardWRBase" />
+	<FalagardMapping WindowType="GuiLook/Button"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GuiLook/Button" />
+	<FalagardMapping WindowType="GuiLook/CloseButton"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GuiLook/CloseButton" />
+	<FalagardMapping WindowType="GuiLook/Checkbox"    TargetType="CEGUI/Checkbox"    Renderer="Falagard/ToggleButton" LookNFeel="GuiLook/Checkbox" />
+	<FalagardMapping WindowType="GuiLook/ImageButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GuiLook/ImageButton" />
+	<FalagardMapping WindowType="GuiLook/StandardButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GuiLook/StandardButton" />
+	<FalagardMapping WindowType="GuiLook/StandardButtonSmall" TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GuiLook/StandardButtonSmall" />
+	<FalagardMapping WindowType="GuiLook/RadioButton" TargetType="CEGUI/RadioButton" Renderer="Falagard/ToggleButton" LookNFeel="GuiLook/RadioButton" />
+	<FalagardMapping WindowType="GuiLook/FrameWindow"  TargetType="CEGUI/FrameWindow" Renderer="Falagard/FrameWindow"  LookNFeel="GuiLook/FrameWindow" />
+	<FalagardMapping WindowType="GuiLook/Titlebar"     TargetType="CEGUI/Titlebar"    Renderer="Falagard/Titlebar"     LookNFeel="GuiLook/Titlebar" />
+	<FalagardMapping WindowType="GuiLook/SystemButton" TargetType="CEGUI/PushButton"  Renderer="Falagard/SystemButton" LookNFeel="GuiLook/Button" />
+	<FalagardMapping WindowType="GuiLook/Editbox"          TargetType="CEGUI/Editbox"          Renderer="Falagard/Editbox"          LookNFeel="GuiLook/Editbox" />
+	<FalagardMapping WindowType="GuiLook/MultiLineEditbox" TargetType="CEGUI/MultiLineEditbox" Renderer="Falagard/MultiLineEditbox" LookNFeel="GuiLook/MultiLineEditbox" />
+	<FalagardMapping WindowType="GuiLook/MultiLineTextbox" TargetType="DefaultWindow" Renderer="Falagard/StaticText" LookNFeel="GuiLook/MultiLineTextbox" />
+	<FalagardMapping WindowType="GuiLook/Menubar"   TargetType="CEGUI/Menubar"   Renderer="Falagard/Menubar"   LookNFeel="GuiLook/Menubar" />
+	<FalagardMapping WindowType="GuiLook/PopupMenu" TargetType="CEGUI/PopupMenu" Renderer="Falagard/PopupMenu" LookNFeel="GuiLook/PopupMenu" />
+	<FalagardMapping WindowType="GuiLook/MenuItem"  TargetType="CEGUI/MenuItem"  Renderer="Falagard/MenuItem"  LookNFeel="GuiLook/MenuItem" />
+	<FalagardMapping WindowType="GuiLook/AlternateProgressBar" TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="GuiLook/AltProgressBar" />
+	<FalagardMapping WindowType="GuiLook/ProgressBar"          TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="GuiLook/ProgressBar" />
+	<FalagardMapping WindowType="GuiLook/VUMeter"              TargetType="CEGUI/ProgressBar" Renderer="Falagard/ProgressBar" LookNFeel="GuiLook/VUMeter" />
+	<FalagardMapping WindowType="GuiLook/VerticalScrollbar"   TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="GuiLook/VerticalScrollbar" />
+	<FalagardMapping WindowType="GuiLook/HorizontalScrollbar" TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="GuiLook/HorizontalScrollbar" />
+	<FalagardMapping WindowType="GuiLook/VerticalScrollbarThumb"   TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="GuiLook/VerticalScrollbarThumb" />
+	<FalagardMapping WindowType="GuiLook/HorizontalScrollbarThumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button" LookNFeel="GuiLook/HorizontalScrollbarThumb" />
+	<FalagardMapping WindowType="GuiLook/LargeVerticalScrollbar"      TargetType="CEGUI/Scrollbar" Renderer="Falagard/Scrollbar" LookNFeel="GuiLook/LargeVerticalScrollbar" />
+	<FalagardMapping WindowType="GuiLook/LargeVerticalScrollbarThumb" TargetType="CEGUI/Thumb"     Renderer="Falagard/Button"    LookNFeel="GuiLook/LargeVerticalScrollbarThumb" />
+	<FalagardMapping WindowType="GuiLook/TabButton"  TargetType="CEGUI/TabButton"  Renderer="Falagard/TabButton"  LookNFeel="GuiLook/TabButton" />
+	<FalagardMapping WindowType="GuiLook/TabControl" TargetType="CEGUI/TabControl" Renderer="Falagard/TabControl" LookNFeel="GuiLook/TabControl" />
+	<FalagardMapping WindowType="GuiLook/TabContentPane"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="GuiLook/TabContentPane" />
+	<FalagardMapping WindowType="GuiLook/TabButtonPane"    TargetType="DefaultWindow"    Renderer="Falagard/Default"    LookNFeel="GuiLook/TabButtonPane" />
+	<FalagardMapping WindowType="GuiLook/ComboDropList" TargetType="CEGUI/ComboDropList" Renderer="Falagard/Listbox" LookNFeel="GuiLook/ComboDropList" />
+	<FalagardMapping WindowType="GuiLook/ComboEditbox"  TargetType="CEGUI/Editbox"	 Renderer="Falagard/Editbox" LookNFeel="GuiLook/ComboEditbox" />
+	<FalagardMapping WindowType="GuiLook/Combobox"	TargetType="CEGUI/Combobox"	 Renderer="Falagard/Default" LookNFeel="GuiLook/Combobox" />
+	<FalagardMapping WindowType="GuiLook/Listbox"           TargetType="CEGUI/Listbox"           Renderer="Falagard/Listbox"           LookNFeel="GuiLook/Listbox" />
+	<FalagardMapping WindowType="GuiLook/ListHeader"        TargetType="CEGUI/ListHeader"        Renderer="Falagard/ListHeader"        LookNFeel="GuiLook/ListHeader" />
+	<FalagardMapping WindowType="GuiLook/ListHeaderSegment" TargetType="CEGUI/ListHeaderSegment" Renderer="Falagard/ListHeaderSegment" LookNFeel="GuiLook/ListHeaderSegment" />
+	<FalagardMapping WindowType="GuiLook/MultiColumnList"   TargetType="CEGUI/MultiColumnList"   Renderer="Falagard/MultiColumnList"   LookNFeel="GuiLook/MultiColumnList" />
+	<FalagardMapping WindowType="GuiLook/Slider"      TargetType="CEGUI/Slider"      Renderer="Falagard/Slider"  LookNFeel="GuiLook/Slider" />
+	<FalagardMapping WindowType="GuiLook/SliderThumb" TargetType="CEGUI/Thumb" Renderer="Falagard/Button"  LookNFeel="GuiLook/SliderThumb" />
+	<FalagardMapping WindowType="GuiLook/ScrollablePane" TargetType="CEGUI/ScrollablePane" Renderer="Falagard/ScrollablePane" LookNFeel="GuiLook/ScrollablePane" />
+	<FalagardMapping WindowType="GuiLook/Spinner" TargetType="CEGUI/Spinner" Renderer="Falagard/Default" LookNFeel="GuiLook/Spinner" />
+	<FalagardMapping WindowType="GuiLook/Tooltip" TargetType="CEGUI/Tooltip" Renderer="Falagard/Tooltip" LookNFeel="GuiLook/Tooltip" />
+	<FalagardMapping WindowType="GuiLook/StaticImage" TargetType="DefaultWindow" Renderer="Falagard/StaticImage" LookNFeel="GuiLook/StaticImage" />
+	<FalagardMapping WindowType="GuiLook/StaticText"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="GuiLook/StaticText" />
+	<FalagardMapping WindowType="GuiLook/StaticTextOutline"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="GuiLook/StaticTextOutline" />
+	<FalagardMapping WindowType="GuiLook/StaticTextBox"  TargetType="DefaultWindow" Renderer="Falagard/StaticText"  LookNFeel="GuiLook/StaticTextBox" />
+	<FalagardMapping WindowType="GuiLook/ItemText"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="GuiLook/ItemText" />
+	<FalagardMapping WindowType="GuiLook/CharacterSlot"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="GuiLook/CharacterSlot" />
+	<FalagardMapping WindowType="GuiLook/CharacterSlotHighlight"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="GuiLook/CharacterSlotHighlight" />
+	<FalagardMapping WindowType="GuiLook/ItemTooltip"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="GuiLook/ItemTooltip" />
+	<FalagardMapping WindowType="GuiLook/ItemTooltip2"  TargetType="DefaultWindow" Renderer="Falagard/Default"  LookNFeel="GuiLook/ItemTooltip2" />
+	<FalagardMapping WindowType="GuiLook/CloseButton"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GuiLook/CloseButton" />
+	<FalagardMapping WindowType="GuiLook/FishingButton"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GuiLook/FishingButton" />
+	<FalagardMapping WindowType="GuiLook/PetFeedButton"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GuiLook/PetFeedButton" />
+	<FalagardMapping WindowType="GuiLook/QuestRadioButton" TargetType="CEGUI/PushButton" Renderer="Falagard/Button" LookNFeel="GuiLook/QuestRadioButton" />
+	<FalagardMapping WindowType="GuiLook/WeaponSwitch"    TargetType="CEGUI/Checkbox"    Renderer="Falagard/ToggleButton" LookNFeel="GuiLook/WeaponSwitch" />
+	<FalagardMapping WindowType="GuiLook/CloseTriangleLeft"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GuiLook/CloseTriangleLeft" />
+	<FalagardMapping WindowType="GuiLook/CloseTriangleRight"      TargetType="CEGUI/PushButton"  Renderer="Falagard/Button"       LookNFeel="GuiLook/CloseTriangleRight" />
+	<FalagardMapping WindowType="GuiLook/RadioTab" TargetType="CEGUI/RadioButton" Renderer="Falagard/ToggleButton" LookNFeel="GuiLook/RadioTab" />
+
+
+</GUIScheme>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="SkillIcons" Imagefile="skillicons.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+    <Image Name="skill_stomp" XPos="0" YPos="0" Width="64" Height="64" />
+    <Image Name="skill_blade" XPos="64" YPos="0" Width="64" Height="64" />
+    <Image Name="skill_skeleton" XPos="128" YPos="0" Width="64" Height="64" />
+    <Image Name="skill_fire" XPos="192" YPos="0" Width="64" Height="64" />
+    <Image Name="skill_heal" XPos="256" YPos="0" Width="64" Height="64" />
+    <Image Name="skill_blast" XPos="320" YPos="0" Width="64" Height="64" />
+    <Image Name="skill_charge" XPos="384" YPos="0" Width="64" Height="64" />
+    <Image Name="skill_burst" XPos="448" YPos="0" Width="64" Height="64" />
+    <Image Name="skill_emberfire" XPos="0" YPos="64" Width="64" Height="64" />
+    <Image Name="skill_emberbolt" XPos="64" YPos="64" Width="64" Height="64" />
+    <Image Name="skill_teleport" XPos="128" YPos="64" Width="64" Height="64" />
+    <Image Name="skill_shadowarmor" XPos="192" YPos="64" Width="64" Height="64" />
+    <Image Name="skill_hexfire" XPos="256" YPos="64" Width="64" Height="64" />
+    <Image Name="skill_poison" XPos="320" YPos="64" Width="64" Height="64" />
+    <Image Name="skill_bighit" XPos="384" YPos="64" Width="64" Height="64" />
+    <Image Name="skill_attack" XPos="448" YPos="64" Width="64" Height="64" />
+    <Image Name="perk_generic" XPos="0" YPos="128" Width="64" Height="64" />
+
+    <Image Name="skill_stomp_gray" XPos="0" YPos="384" Width="64" Height="64" />
+    <Image Name="skill_blade_gray" XPos="64" YPos="384" Width="64" Height="64" />
+    <Image Name="skill_skeleton_gray" XPos="128" YPos="384" Width="64" Height="64" />
+    <Image Name="skill_fire_gray" XPos="192" YPos="384" Width="64" Height="64" />
+    <Image Name="skill_heal_gray" XPos="256" YPos="384" Width="64" Height="64" />
+    <Image Name="skill_blast_gray" XPos="320" YPos="384" Width="64" Height="64" />
+    <Image Name="skill_charge_gray" XPos="384" YPos="384" Width="64" Height="64" />
+    <Image Name="skill_burst_gray" XPos="448" YPos="384" Width="64" Height="64" />
+    <Image Name="skill_emberfire_gray" XPos="0" YPos="448" Width="64" Height="64" />
+    <Image Name="skill_emberbolt_gray" XPos="64" YPos="448" Width="64" Height="64" />
+    <Image Name="skill_teleport_gray" XPos="128" YPos="448" Width="64" Height="64" />
+    <Image Name="skill_shadowarmor_gray" XPos="192" YPos="448" Width="64" Height="64" />
+    <Image Name="skill_hexfire_gray" XPos="256" YPos="448" Width="64" Height="64" />
+    <Image Name="skill_poison_gray" XPos="320" YPos="448" Width="64" Height="64" />
+    <Image Name="skill_bighit_gray" XPos="384" YPos="448" Width="64" Height="64" />
+
+</Imageset>

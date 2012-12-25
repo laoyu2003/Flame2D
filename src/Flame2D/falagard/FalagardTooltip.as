@@ -1,0 +1,87 @@
+/***************************************************************************
+ *   Copyright (C) 2004 - 2010 Paul D Turner & The CEGUI Development Team
+ *
+ *   Porting to Flash Stage3D
+ *   Copyright (C) 2012 Mingjian Yu(laoyu20032003@hotmail.com)
+ *
+ *   Permission is hereby granted, free of charge, to any person obtaining
+ *   a copy of this software and associated documentation files (the
+ *   "Software"), to deal in the Software without restriction, including
+ *   without limitation the rights to use, copy, modify, merge, publish,
+ *   distribute, sublicense, and/or sell copies of the Software, and to
+ *   permit persons to whom the Software is furnished to do so, subject to
+ *   the following conditions:
+ *
+ *   The above copyright notice and this permission notice shall be
+ *   included in all copies or substantial portions of the Software.
+ *
+ *   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ *   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ *   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ *   IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ *   OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ *   ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ *   OTHER DEALINGS IN THE SOFTWARE.
+ ***************************************************************************/
+package Flame2D.falagard
+{
+    import Flame2D.elements.tooltip.FlameTooltip;
+    import Flame2D.elements.tooltip.TooltipWindowRenderer;
+    import Flame2D.core.falagard.FalagardStateImagery;
+    import Flame2D.core.falagard.FalagardWidgetLookFeel;
+    import Flame2D.core.utils.Misc;
+    import Flame2D.core.utils.Rect;
+    import Flame2D.core.utils.Size;
+
+    /*!
+    \brief
+    Tooltip class for the FalagardBase module.
+    
+    This class requires LookNFeel to be assigned.  The LookNFeel should provide the following:
+    
+    States:
+    - Enabled
+    - Disabled
+    
+    Named Areas:
+    TextArea    - Typically this would be the same area as the TextComponent you define to receive the tooltip text.  This
+    named area is used when deciding how to dynamically size the Tooltip so that text is not clipped.
+    */
+    public class FalagardTooltip extends TooltipWindowRenderer
+    {
+        
+        public static const TypeName:String = "Falagard/Tooltip";
+        
+        public function FalagardTooltip(type:String)
+        {
+            super(type);
+        }
+        
+        override public function render():void
+        {
+            // get WidgetLookFeel for the assigned look.
+            const wlf:FalagardWidgetLookFeel = getLookNFeel();
+            // try and get imagery for our current state
+            const imagery:FalagardStateImagery = wlf.getStateImagery(d_window.isDisabled() ? "Disabled" : "Enabled");
+            // peform the rendering operation.
+            imagery.render(d_window);
+        }
+        
+        override public function getTextSize():Size
+        {
+            var w:FlameTooltip = d_window as FlameTooltip;
+            var sz:Size = w.getTextSize_impl();
+            
+            // get WidgetLookFeel for the assigned look.
+            const wlf:FalagardWidgetLookFeel = getLookNFeel();
+            
+            var textArea:Rect = wlf.getNamedArea("TextArea").getArea().getPixelRect(w);
+            var wndArea:Rect = w.getArea().asAbsolute(w.getParentPixelSize());
+            
+            sz.d_width  = Misc.PixelAligned(sz.d_width + wndArea.getWidth() - textArea.getWidth());
+            sz.d_height = Misc.PixelAligned(sz.d_height + wndArea.getHeight() - textArea.getHeight());
+            
+            return sz;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+material Dropdown_
+{
+	technique
+	{
+		pass
+		{
+
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 1 1 1
+
+			depth_write off
+			depth_check off
+			lighting off
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture dropdown.png
+				filtering linear linear none
+			}
+		}
+	}
+
+}

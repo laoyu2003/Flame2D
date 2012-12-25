@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="UIIcons" Imagefile="uiicons.dds" NativeHorzRes="1024" NativeVertRes="768" AutoScaled="true" >
+    <Image Name="iconhelm" XPos="0" YPos="0" Width="64" Height="96" />
+    <Image Name="iconamulet" XPos="64" YPos="0" Width="64" Height="96" />
+    <Image Name="iconring" XPos="128" YPos="0" Width="64" Height="96" />
+    <Image Name="iconchest" XPos="192" YPos="0" Width="64" Height="96" />
+    <Image Name="iconshoulder" XPos="256" YPos="0" Width="64" Height="96" />
+    <Image Name="iconbelt" XPos="320" YPos="0" Width="64" Height="96" />
+    <Image Name="iconboots" XPos="384" YPos="0" Width="64" Height="96" />
+    <Image Name="icongloves" XPos="448" YPos="0" Width="64" Height="96" />
+    <Image Name="iconweapon" XPos="0" YPos="96" Width="89" Height="132" />    
+    <Image Name="slotglow" XPos="0" YPos="236" Width="67" Height="95" />
+    <Image Name="redslotglow" XPos="72" YPos="236" Width="67" Height="95" />
+    <Image Name="blueslotglow" XPos="144" YPos="236" Width="67" Height="95" />
+    <Image Name="goldslotglow" XPos="216" YPos="236" Width="67" Height="95" />
+    <Image Name="blueredslotglow" XPos="288" YPos="236" Width="67" Height="95" />
+    <Image Name="purpleslotglow" XPos="360" YPos="236" Width="67" Height="95" />
+    <Image Name="onesocketglow" XPos="432" YPos="236" Width="67" Height="95" />
+    <Image Name="twosocketglow" XPos="432" YPos="336" Width="67" Height="95" />
+    <Image Name="FishingRing" XPos="0" YPos="384" Width="128" Height="128" />
+    <Image Name="FishingRipples" XPos="128" YPos="384" Width="128" Height="128" />
+
+    <Image Name="QuestButtonHighlight" XPos="240" YPos="160" Width="270" Height="30" />
+    <Image Name="QuestButton" XPos="240" YPos="127" Width="270" Height="30" />
+    <Image Name="QuestButtonPressed" XPos="240" YPos="193" Width="270" Height="30" />
+
+    <Image Name="CheckHighlight" XPos="258" YPos="368" Width="68" Height="68" />
+    <Image Name="Check" XPos="258" YPos="438" Width="68" Height="68" />
+    <Image Name="CheckCheckedHighlight" XPos="368" YPos="160" Width="68" Height="68" />
+    <Image Name="CheckChecked" XPos="329" YPos="438" Width="68" Height="68" />
+
+</Imageset>

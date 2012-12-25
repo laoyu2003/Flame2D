@@ -1,0 +1,68 @@
+material Skill_Bottom
+{
+	technique
+	{
+		pass
+		{
+
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 1 1 1
+			lighting off
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture journal_bottom.png
+				filtering linear linear none
+			}
+		}
+	}
+}
+material Skill_Middle/Skill_Middle
+{
+	technique
+	{
+		pass
+		{
+
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 1 1 1
+
+			lighting off
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture journal_top.png
+				filtering linear linear none
+			}
+		}
+	}
+}
+material Skill_Middle/Skill_Middleb
+{
+	technique
+	{
+		pass
+		{
+
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 1 1 1
+
+			lighting off
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture journal_bottom.png
+				filtering linear linear none
+			}
+		}
+	}
+}

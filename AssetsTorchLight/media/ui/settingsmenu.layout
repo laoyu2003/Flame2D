@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="GuiLook/StaticImage" Name="Frame" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+		<Property Name="Image" Value="set:GuiLook image:GrayLine" />
+
+        <Window Type="GuiLook/StaticText" Name="Title">
+        <Property Name="HorzTextFormatting" Value="CentreAligned" />
+        <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedPosition" Value="{{.5,-71},{.5,-300}}" />
+            <Property Name="UnifiedSize" Value="{{0,142},{0,28}}" />
+		<Property Name="TextColour" Value="FFFFFFFF"/>
+		<Property Name="Font" Value="SerifBig"/>
+        </Window>   
+
+
+
+
+ 	 <Window Type="GuiLook/StandardButton" Name="Cancel" >
+            <Property Name="Text" Value="Cancel" />
+            <Property Name="onClick" Value="guiDecline" />
+            <Property Name="UnifiedPosition" Value="{{.5,-170},{.70,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+        </Window>
+        <Window Type="GuiLook/StandardButton" Name="Apply" >
+            <Property Name="Text" Value="Apply" />
+            <Property Name="onClick" Value="guiAccept" />
+            <Property Name="UnifiedPosition" Value="{{.5,18},{.70,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+        </Window>
+        <Window Type="GuiLook/Checkbox" Name="Fullscreen" >
+            <Property Name="Text" Value="Fullscreen" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-300},{.5,-270}}" />
+		<Property Name="Tooltip" Value="Enable/Disable Fullscreen mode" />
+        </Window>
+        <Window Type="GuiLook/Checkbox" Name="Antialiasing" >
+            <Property Name="Text" Value="Antialiasing" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-100},{.5,-270}}" />
+		<Property Name="Tooltip">Enable/Disable Full-Scene Antialiasing
+|cFFFFBA00(requires restart)|u</Property >
+        </Window>
+        <Window Type="GuiLook/Checkbox" Name="RenderBehind" >
+            <Property Name="Text" Value="Render Behind Walls" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,100},{.5,-270}}" />
+		<Property Name="Tooltip" Value="Enable/Disable the behind-walls effect" />
+        </Window>
+
+        <Window Type="GuiLook/Checkbox" Name="Rimlights" >
+            <Property Name="Text" Value="Rimlights" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-300},{.5,-220}}" />
+		<Property Name="Tooltip">Enable/Disable the rimlight effect
+|cFFFFBA00(requires restart)|u</Property >
+        </Window>
+        <Window Type="GuiLook/Checkbox" Name="HardwareSkinning" >
+            <Property Name="Text" Value="HW Skinning" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-100},{.5,-220}}" />
+		<Property Name="Tooltip">Enable/Disable Hardware Skinning
+|cFFFFBA00(requires restart)|u</Property >
+        </Window>
+        <Window Type="GuiLook/Checkbox" Name="VSync" >
+            <Property Name="Text" Value="VSync" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,100},{.5,-220}}" />
+		<Property Name="Tooltip">Enable/Disable Vertical Sync
+|cFFFFBA00(requires restart)|u</Property >
+        </Window>
+
+        <Window Type="GuiLook/Combobox" Name="ResolutionDropdown" >
+            <Property Name="ReadOnly" Value="True" />
+            <Property Name="UnifiedSize" Value="{{0,200},{0,130}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-300},{.5,-150}}" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="ResHeader" >
+            <Property Name="Text" Value="Resolution" />
+            <Property Name="UnifiedSize" Value="{{0,200},{0,20}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-300},{.5,-170}}" />
+        </Window>
+        <Window Type="GuiLook/Combobox" Name="ShadowDropdown" >
+            <Property Name="ReadOnly" Value="True" />
+            <Property Name="UnifiedSize" Value="{{0,200},{0,130}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,100},{.5,-150}}" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="ShadowHeader" >
+            <Property Name="Text" Value="Shadows" />
+            <Property Name="UnifiedSize" Value="{{0,200},{0,20}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,100},{.5,-170}}" />
+        </Window>
+        <Window Type="GuiLook/Combobox" Name="ParticleDropdown" >
+            <Property Name="ReadOnly" Value="True" />
+            <Property Name="UnifiedSize" Value="{{0,200},{0,130}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,100},{.5,-50}}" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="ParticleHeader" >
+            <Property Name="Text" Value="Particle Detail" />
+            <Property Name="UnifiedSize" Value="{{0,200},{0,20}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,100},{.5,-70}}" />
+        </Window>
+
+        <Window Type="GuiLook/Slider" Name="MusicVolume" >
+            <Property Name="UnifiedSize" Value="{{0,255},{0,25}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-300},{.5,-50}}" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="MusicHeader" >
+            <Property Name="Text" Value="Music Volume" />
+            <Property Name="UnifiedSize" Value="{{0,200},{0,20}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-300},{.5,-70}}" />
+        </Window>
+        <Window Type="GuiLook/Checkbox" Name="MusicMute" >
+            <Property Name="Text" Value="Mute" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-50},{.5,-57}}" />
+		<Property Name="Tooltip" Value="Mute music" />
+        </Window>
+
+        <Window Type="GuiLook/Slider" Name="SoundVolume" >
+            <Property Name="UnifiedSize" Value="{{0,255},{0,25}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-300},{.5,50}}" />
+        </Window>
+        <Window Type="GuiLook/StaticText" Name="SoundHeader" >
+            <Property Name="Text" Value="Sound Volume" />
+            <Property Name="UnifiedSize" Value="{{0,200},{0,20}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-300},{.5,30}}" />
+        </Window>
+        <Window Type="GuiLook/Checkbox" Name="SoundMute" >
+            <Property Name="Text" Value="Mute" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+            <Property Name="UnifiedPosition" Value="{{.5,-50},{.5,43}}" />
+		<Property Name="Tooltip" Value="Mute all sounds" />
+        </Window>
+
+    	<Window Type="GuiLook/Checkbox" Name="ShowTips" >
+            <Property Name="Text" Value="Show Tips" />
+            <Property Name="UnifiedPosition" Value="{{.5,100},{.5,-5}}" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+		<Property Name="Tooltip" Value="Enable/Disable ingame help" />
+        </Window>
+
+	<Window Type="GuiLook/Checkbox" Name="ShowFloatyNumbers" >
+            <Property Name="Text" Value="Show Event Info" />
+            <Property Name="UnifiedPosition" Value="{{.5,100},{.5,40}}" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+		<Property Name="Tooltip" Value="Enable/Disable floating damage messages" />
+        </Window>
+
+	<Window Type="GuiLook/Checkbox" Name="ShowBlood" >
+            <Property Name="Text" Value="Show Blood" />
+            <Property Name="UnifiedPosition" Value="{{.5,100},{.5,85}}" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+		<Property Name="Tooltip" Value="Enable/Disable blood" />
+        </Window>
+	<Window Type="GuiLook/Checkbox" Name="NetbookMode" >
+            <Property Name="Text" Value="Netbook Mode" />
+            <Property Name="UnifiedPosition" Value="{{.5,-300},{.5,85}}" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+		<Property Name="Tooltip" Value="Enable/Disable Netbook mode" />
+        </Window>
+
+    </Window>
+</GUILayout>

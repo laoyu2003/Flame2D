@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Type="DefaultWindow" Name="Master">
+    <Window Type="DefaultWindow" Name="Blocker">
+            <Property Name="UnifiedPosition" Value="{{1,-390},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,390},{0,768}}" />
+    </Window>
+    <Window Type="DefaultWindow" Name="TopFrame">
+            <Property Name="UnifiedPosition" Value="{{1,-390},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,390},{0,768}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+
+   	<Window Type="GuiLook/ImageButton" Name="Close">
+            <Property Name="UnifiedPosition" Value="{{0,29},{0,200}}" />
+            <Property Name="UnifiedSize" Value="{{0,23},{0,46}}" />
+		<Property Name="NormalImage" Value="set:GuiLook image:CloseTriangleRight" />
+		<Property Name="HoverImage" Value="set:GuiLook image:CloseTriangleRightOver" />
+		<Property Name="PushedImage" Value="set:GuiLook image:CloseTriangleRightOver" />
+		<Property Name="Tooltip" Value="Close" />
+   	 </Window>
+  	<Window Type="GuiLook/StaticText" Name="Title">
+            <Property Name="UnifiedPosition" Value="{{0,84},{0,64}}" />
+            <Property Name="UnifiedSize" Value="{{0,248},{0,18}}" />
+		<Property Name="Text" Value="Journal"/>
+		<Property Name="HorzTextFormatting" Value="CentreAligned"/>
+        </Window>    
+  
+
+    <Window Type="DefaultWindow" Name="JournalFrame">
+            <Property Name="UnifiedPosition" Value="{{0,84},{0,123}}" />
+            <Property Name="UnifiedSize" Value="{{0,304},{0,450}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+    </Window>
+
+    <Window Type="DefaultWindow" Name="BottomFrame">
+            <Property Name="UnifiedPosition" Value="{{1,-390},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,390},{0,768}}" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   
+    </Window>
+</Window>
+</GUILayout>

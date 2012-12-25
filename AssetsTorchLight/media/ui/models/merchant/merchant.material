@@ -1,0 +1,46 @@
+material MerchantBottom
+{
+	technique
+	{
+		pass
+		{
+
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 1 1 1
+
+			lighting off
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture merchant_bottom.png
+				filtering linear linear none
+			}
+		}
+	}
+}
+material Merchant_Top
+{
+	technique
+	{
+		pass
+		{
+
+			ambient 0.588235 0.588235 0.588235
+			diffuse 0.588235 0.588235 0.588235
+			specular 0 0 0 0
+			emissive 1 1 1
+
+			lighting off
+			scene_blend alpha_blend
+			alpha_rejection greater 5
+			texture_unit
+			{
+				texture merchant_top.png
+				filtering linear linear none
+			}
+		}
+	}
+}

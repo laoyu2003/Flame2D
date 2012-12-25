@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+   	<Window Type="GuiLook/StaticImage" Name="TopBarB">
+            <Property Name="UnifiedPosition" Value="{{.5,0},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,1024},{0,140}}" />
+   	<Window Type="GuiLook/StaticImage" Name="TopBar">
+            <Property Name="UnifiedPosition" Value="{{-.5,0},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,1024},{0,140}}" />
+		<Property Name="Image" Value="set:Logo image:topbar" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="ClippedByParent" Value="False" />
+   	 </Window>
+   	 </Window>
+   	<Window Type="GuiLook/StaticImage" Name="TopBarLeft">
+            <Property Name="UnifiedPosition" Value="{{0,0},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,225},{0,88}}" />
+		<Property Name="Image" Value="set:Logo image:topbarleft" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+   	<Window Type="GuiLook/StaticImage" Name="TopBarRight">
+            <Property Name="UnifiedPosition" Value="{{1,-225},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,225},{0,88}}" />
+		<Property Name="Image" Value="set:Logo image:topbarright" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+   	<Window Type="GuiLook/StaticImage" Name="BottomBarB">
+            <Property Name="UnifiedPosition" Value="{{.5,0},{1,-89}}" />
+            <Property Name="UnifiedSize" Value="{{0,1024},{0,89}}" />
+   	<Window Type="GuiLook/StaticImage" Name="BottomBar">
+            <Property Name="UnifiedPosition" Value="{{-.5,0},{1,-89}}" />
+            <Property Name="UnifiedSize" Value="{{0,1024},{0,89}}" />
+		<Property Name="Image" Value="set:Logo image:bottombar" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="ClippedByParent" Value="False" />
+   	 </Window>
+   	 </Window>
+   	<Window Type="GuiLook/StaticImage" Name="BottomBarLeft">
+            <Property Name="UnifiedPosition" Value="{{0,0},{1,-89}}" />
+            <Property Name="UnifiedSize" Value="{{0,225},{0,89}}" />
+		<Property Name="Image" Value="set:Logo image:bottombarleft" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+   	<Window Type="GuiLook/StaticImage" Name="BottomBarRight">
+            <Property Name="UnifiedPosition" Value="{{1,-225},{1,-89}}" />
+            <Property Name="UnifiedSize" Value="{{0,225},{0,89}}" />
+		<Property Name="Image" Value="set:Logo image:bottombarright" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+
+	<Window Type="GuiLook/StaticTextOutline" Name="DifficultyHeader" >
+	    		  <Property Name="Text" Value="1"/>
+         		   <Property Name="UnifiedPosition" Value="{{.5,-300},{0,110}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,600},{0,32}}" />
+			<Property Name="Font" Value="SerifBig" /> 
+			<Property Name="Text" Value="Select Difficulty" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		    <Property Name="HorzTextFormatting" Value="CentreAligned" />
+		  </Window>
+
+
+    <Window Type="GuiLook/StandardButton" Name="Back">
+            <Property Name="UnifiedPosition" Value="{{.5,-400},{1,-64}}" />
+            <Property Name="UnifiedSize" Value="{{0,246},{0,44}}" />
+            <Property Name="Text" Value="Back"/>
+		<Property Name="onClick" Value="guiBack"/>
+    </Window>
+
+
+        <Window Type="GuiLook/ItemText" Name="DifficultyBox" >
+            <Property Name="UnifiedPosition" Value="{{0,30},{.5,-150}}" />
+            <Property Name="UnifiedSize" Value="{{0,200},{0,300}}" />
+	        <Property Name="MousePassThroughEnabled" Value="True" />
+
+ <Window Type="GuiLook/StandardButton" Name="Easy">
+            <Property Name="UnifiedPosition" Value="{{0,26},{0,40}}" />
+            <Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+            <Property Name="Text" Value="Easy"/>
+		<Property Name="onClick" Value="guiSelect1"/>
+		<Property Name="Tooltip" Value="View Skills" />
+		<Property Name="Tooltip" Value="For players looking for casual fun" />
+    </Window>
+    <Window Type="GuiLook/StandardButton" Name="Normal">
+            <Property Name="UnifiedPosition" Value="{{0,26},{0,80}}" />
+            <Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+            <Property Name="Text" Value="Normal"/>
+		<Property Name="onClick" Value="guiSelect2"/>
+		<Property Name="Tooltip" Value="For players new to Action-RPGS" />
+    </Window>
+    <Window Type="GuiLook/StandardButton" Name="Hard">
+            <Property Name="UnifiedPosition" Value="{{0,26},{0,120}}" />
+            <Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+            <Property Name="Text" Value="Hard"/>
+		<Property Name="onClick" Value="guiSelect3"/>
+		<Property Name="Tooltip" Value="Action-RPG veterans should start here" />
+    </Window>
+    <Window Type="GuiLook/StandardButton" Name="VeryHard">
+            <Property Name="UnifiedPosition" Value="{{0,26},{0,160}}" />
+            <Property Name="UnifiedSize" Value="{{0,152},{0,28}}" />
+            <Property Name="Text" Value="Very Hard"/>
+		<Property Name="onClick" Value="guiSelect4"/>
+		<Property Name="Tooltip" Value="Masochists only!" />
+    </Window>
+        <Window Type="GuiLook/Checkbox" Name="Hardcore" >
+            <Property Name="Text" Value="Hardcore" />
+            <Property Name="UnifiedPosition" Value="{{0,26},{0,230}}" />
+		<Property Name="Tooltip" Value="Death is permanent!" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,40}}" />
+        </Window>
+    </Window>
+
+    </Window>
+</GUILayout>
+
+
+

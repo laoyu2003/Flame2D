@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="Root" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="MousePassThroughEnabled" Value="True" />
+   	<Window Type="GuiLook/StaticImage" Name="TopBarB">
+            <Property Name="UnifiedPosition" Value="{{.5,0},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,1024},{0,140}}" />
+   	<Window Type="GuiLook/StaticImage" Name="TopBar">
+            <Property Name="UnifiedPosition" Value="{{-.5,0},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,1024},{0,140}}" />
+		<Property Name="Image" Value="set:Logo image:topbar" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="ClippedByParent" Value="False" />
+   	 </Window>
+   	 </Window>
+   	<Window Type="GuiLook/StaticImage" Name="TopBarLeft">
+            <Property Name="UnifiedPosition" Value="{{0,0},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,225},{0,88}}" />
+		<Property Name="Image" Value="set:Logo image:topbarleft" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+   	<Window Type="GuiLook/StaticImage" Name="TopBarRight">
+            <Property Name="UnifiedPosition" Value="{{1,-225},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{0,225},{0,88}}" />
+		<Property Name="Image" Value="set:Logo image:topbarright" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+   	<Window Type="GuiLook/StaticImage" Name="BottomBarB">
+            <Property Name="UnifiedPosition" Value="{{.5,0},{1,-89}}" />
+            <Property Name="UnifiedSize" Value="{{0,1024},{0,89}}" />
+   	<Window Type="GuiLook/StaticImage" Name="BottomBar">
+            <Property Name="UnifiedPosition" Value="{{-.5,0},{1,-89}}" />
+            <Property Name="UnifiedSize" Value="{{0,1024},{0,89}}" />
+		<Property Name="Image" Value="set:Logo image:bottombar" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="ClippedByParent" Value="False" />
+   	 </Window>
+   	 </Window>
+   	<Window Type="GuiLook/StaticImage" Name="BottomBarLeft">
+            <Property Name="UnifiedPosition" Value="{{0,0},{1,-89}}" />
+            <Property Name="UnifiedSize" Value="{{0,225},{0,89}}" />
+		<Property Name="Image" Value="set:Logo image:bottombarleft" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+   	<Window Type="GuiLook/StaticImage" Name="BottomBarRight">
+            <Property Name="UnifiedPosition" Value="{{1,-225},{1,-89}}" />
+            <Property Name="UnifiedSize" Value="{{0,225},{0,89}}" />
+		<Property Name="Image" Value="set:Logo image:bottombarright" />
+		<Property Name="MousePassThroughEnabled" Value="True" />
+   	 </Window>
+    <Window Type="GuiLook/StandardButton" Name="ContinueLast">
+            <Property Name="UnifiedPosition" Value="{{.5,251},{1,-140}}" />
+            <Property Name="UnifiedSize" Value="{{0,246},{0,44}}" />
+            <Property Name="Text" Value="Continue"/>
+		<Property Name="onClick" Value="guiContinueGame"/>
+    </Window>
+
+    <Window Type="GuiLook/StandardButton" Name="NewGame">
+            <Property Name="UnifiedPosition" Value="{{.5,-507},{1,-64}}" />
+            <Property Name="UnifiedSize" Value="{{0,246},{0,44}}" />
+            <Property Name="Text" Value="New Character"/>
+		<Property Name="onClick" Value="guiNewGameMenu"/>
+    </Window>
+    <Window Type="GuiLook/StandardButton" Name="ContinueGame">
+            <Property Name="UnifiedPosition" Value="{{.5,-251},{1,-64}}" />
+            <Property Name="UnifiedSize" Value="{{0,246},{0,44}}" />
+            <Property Name="Text" Value="Load Character"/>
+		<Property Name="onClick" Value="guiContinueGameMenu"/>
+    </Window>
+    <Window Type="GuiLook/StandardButton" Name="Settings">
+            <Property Name="UnifiedPosition" Value="{{.5,5},{1,-64}}" />
+            <Property Name="UnifiedSize" Value="{{0,246},{0,44}}" />
+            <Property Name="Text" Value="Settings"/>
+		<Property Name="onClick" Value="guiSettingsMenu"/>
+    </Window>
+    <Window Type="GuiLook/StandardButton" Name="ExitGame">
+            <Property Name="UnifiedPosition" Value="{{.5,251},{1,-64}}" />
+            <Property Name="UnifiedSize" Value="{{0,246},{0,44}}" />
+            <Property Name="Text" Value="Quit Game"/>
+		<Property Name="onClick" Value="guiExitApplication"/>
+    </Window>
+		
+		<Window Type="GuiLook/StaticText" Name="CharacterModsWarning" >
+	    		  <Property Name="Text" Value="1"/>
+         		   <Property Name="UnifiedPosition" Value="{{.5,251},{1,-190}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,246},{0,64}}" />
+			<Property Name="Font" Value="SerifSmall" /> 
+			<Property Name="Text" Value="Game Mods do not match those enabled when this character was last saved. Continue at your own risk!" />
+			<Property Name="TextColour" Value="FFFF0000" /> 
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+	          <Property Name="HorzTextFormatting" Value="WordWrapCentreAligned" />
+		  </Window>
+
+		<Window Type="GuiLook/StaticText" Name="CopyrightInfo" >
+	    		  <Property Name="Text" Value="(v1.13) Torchlight (C) 2009 Runic Games Inc."/>
+         		   <Property Name="UnifiedPosition" Value="{{1,-460},{1,-20}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,400},{0,24}}" />
+			<Property Name="Font" Value="SerifSmall" /> 
+			<Property Name="TextColour" Value="c2FFFFFF" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		    <Property Name="HorzTextFormatting" Value="RightAligned" />
+		  </Window>
+		<Window Type="GuiLook/StaticText" Name="DemoVersion" >
+	    		  <Property Name="Text" Value="Demo Version"/>
+         		   <Property Name="UnifiedPosition" Value="{{0,0},{1,-24}}" />
+         		   <Property Name="UnifiedSize" Value="{{0,400},{0,24}}" />
+			<Property Name="Font" Value="SerifSmall" /> 
+			<Property Name="TextColour" Value="c2FFFFFF" />
+			<Property Name="MousePassThroughEnabled" Value="True" />
+			<Property Name="AlwaysOnTop" Value="True" />
+		    <Property Name="HorzTextFormatting" Value="LeftAligned" />
+		  </Window>
+
+	<Window Type="GuiLook/RadioTab" Name="TabA">
+            <Property Name="UnifiedPosition" Value="{{1,-52},{1,-14}}" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,14}}" />
+		<Property Name="SelectedImage" Value="set:ui2 image:StandardTab" />
+		<Property Name="HoverImage" Value="set:ui2 image:StandardTabLit" />
+		<Property Name="UnselectedImage" Value="set:ui2 image:StandardTabInactive" />
+            <Property Name="ID" Value="0" />
+		<Property Name="onClick" Value="guiSelectA"/>
+		<Property Name="Selected" Value = "False"/>
+   	 </Window>
+
+	<Window Type="GuiLook/StaticText" Name="TabTextA">
+            <Property Name="UnifiedPosition" Value="{{1,-52},{1,-13}}" />
+            <Property Name="UnifiedSize" Value="{{0,50},{0,14}}" />
+		<Property Name="Text" Value="Active"/>
+		<Property Name="MousePassThroughEnabled" Value="True" />
+		<Property Name="HorzTextFormatting" Value="CentreAligned"/>
+		<Property Name="AlwaysOnTop" Value="True"/>
+		<Property Name="Font" Value="SerifSmall"/>
+            <Property Name="Text" Value="credits"/>
+        </Window>    
+
+
+   <Window Type="GuiLook/StaticImage" Name="CreditFrame">
+            <Property Name="UnifiedPosition" Value="{{0,0},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{1,0},{1,0}}" />
+		<Property Name="Image" Value="set:GuiLook image:GrayLine" />
+		<Property Name="AlwaysOnTop" Value="True" />
+		<Property Name="Visible" Value="False" />
+		<Property Name="MousePassThroughEnabled" Value="False" />
+		<Property Name="onClick" Value="guiSelectB"/>
+
+        <Window Type="GuiLook/ItemText" Name="Credits" >
+            <Property Name="UnifiedPosition" Value="{{0,0},{0,0}}" />
+            <Property Name="UnifiedSize" Value="{{1,0},{1,0}}" />
+      	  <Property Name="HorzTextFormatting" Value="WordWrapCentreAligned" />
+	        <Property Name="VertFormatting" Value="CentreAligned" />
+		<Property Name="TextColour" Value="FFFFFFFF"/>
+		<Property Name="Font" Value="Serif"/>
+		<Property Name="onClick" Value="guiSelectB"/>
+		<Property Name="MousePassThroughEnabled" Value="True" />
+        </Window>   
+    </Window>
+    </Window>
+
+
+
+
+
+</GUILayout>
